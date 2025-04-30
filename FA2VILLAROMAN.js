@@ -4,7 +4,7 @@ function generateTable() {
   
     if (start < 2 || end > 10 || start > end) {
       alert("Please enter numbers between 2 and 10");
-      document.getElementById("output").innerHTML = ""; // Clear table
+      document.getElementById("output").innerHTML = ""; 
       return;
     }
   
